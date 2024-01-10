@@ -22,7 +22,7 @@ container.appendChild(h3);
 
 // create element div
 const div = document.createElement('div');
-div.setAttribute("style", 'background; pink; border; 1px solid black;');
+div.setAttribute("style", 'background: pink; border: 1px solid black;');
 // create h1 element within the DIV and add it to the container
 const h1 = document.createElement('h1');
 h1.textContent = 'Hey I am another h1!';
