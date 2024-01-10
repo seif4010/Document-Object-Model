@@ -17,7 +17,7 @@ container.appendChild(paragraph);
 const h3 = document.createElement('p');
 h3.textContent = 'Hey I am blue h3!';
 h3.setAttribute('style', 'color: blue;');
-container.appendChild(paragraph);
+container.appendChild(h3);
 // document.body.appendChild(h3);
 
 // DIV
