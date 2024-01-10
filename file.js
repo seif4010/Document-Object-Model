@@ -8,7 +8,7 @@ container.appendChild(content);
 
 // paragraph
 const paragraph = document.createElement('p');
-paragraph.classList.add('paragraph');
+paragraph.classList.add('p');
 paragraph.textContent = 'Hey I am Red paragraph!';
 paragraph.setAttribute('style', 'color: red;'); 
 paragraph.appendChild(paragraph);
