@@ -20,5 +20,17 @@ h3.setAttribute('style', 'color: blue;');
 container.appendChild(h3);
 // document.body.appendChild(h3);
 
-// DIV
+// create element div
 const div = document.createElement('div');
+div.setAttribute("style", 'background; pink; border; 1px solid black;');
+// create h1 element within the DIV and add it to the container
+const h1 = document.createElement('h1');
+h1.textContent = 'Hey I am another h1!';
+// create p element within the div and add it to the container
+const p = document.createElement('p');
+p.textContent = 'Me too!'
+//append both h1 and p to the div element
+div.appendChild(h1);
+div.appendChild(p);
+//append the div to the parent container
+container.appendChild(div);
