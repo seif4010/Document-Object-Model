@@ -34,3 +34,22 @@ div.appendChild(h1);
 div.appendChild(p);
 //append the div to the parent container
 container.appendChild(div);
+
+//event listeners with Event Listeners pointers
+const button = document.querySelector('#button');
+button.addEventListener('click', () => {
+    alert("Hello World!!");
+});
+
+// button.onclick = () => alert('Hello World!');
+
+// Event listeners with function pointers
+function alertFunction() {
+    alert("Hello World! from JavaScript function!");
+}
+
+const btn = document.querySelector('#btn');
+
+btn.onclick = alertFunction();
+
+btn.addEventListener('click', alertFunction);
