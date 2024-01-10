@@ -14,7 +14,7 @@ container.appendChild(paragraph);
 // document.body.appendChild(paragraph);
 
 // h3 with blue text
-const h3 = document.createElement('p');
+const h3 = document.createElement('h3');
 h3.textContent = 'Hey I am blue h3!';
 h3.setAttribute('style', 'color: blue;');
 container.appendChild(h3);
